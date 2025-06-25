@@ -1,0 +1,48 @@
+{
+  "name": "registry-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A template for creating a registry of shadcn component registries, without next, and hosting them on GitHub Pages.",
+  "homepage": "https://iloveitaly.github.io/shadcn-registry-template-github-pages",
+  "keywords": [
+    "shadcn",
+    "shadcn-ui",
+    "shadcn-registry"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview",
+    "lint": "eslint .",
+    "registry:build": "shadcn registry:build",
+    "upgrade:shadcn": "npx --yes shadcn@canary add --all --overwrite --yes",
+    "upgrade:packages": "pnpx npm-check-updates --interactive --format group"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-tooltip": "^1.2.7",
+    "@vitejs/plugin-react": "^4.6.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.523.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "shadcn": "2.7.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vite": "^7.0.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
