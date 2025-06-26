@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react"
-import { getPokemon, getPokemonList } from "@/registry/new-york/complex-component/lib/pokemon"
+
+import {
+  getPokemon,
+  getPokemonList,
+} from "@/registry/new-york/complex-component/lib/pokemon"
 
 // Totally unnecessary hook, but it's a good example of how to use a hook in a custom registry.
 
@@ -8,7 +12,8 @@ export function usePokemonImage(number: number) {
 }
 
 export function usePokemon(name: string) {
-  const [pokemon, setPokemon] = useState<Awaited<ReturnType<typeof getPokemon>>>(null)
+  const [pokemon, setPokemon] =
+    useState<Awaited<ReturnType<typeof getPokemon>>>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<Error | null>(null)
 
@@ -24,7 +29,8 @@ export function usePokemon(name: string) {
 }
 
 export function usePokemonList(limit?: number) {
-  const [pokemonList, setPokemonList] = useState<Awaited<ReturnType<typeof getPokemonList>>>(null)
+  const [pokemonList, setPokemonList] =
+    useState<Awaited<ReturnType<typeof getPokemonList>>>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<Error | null>(null)
 

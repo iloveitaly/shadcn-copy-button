@@ -3,6 +3,6 @@
   "prettier.prettierPath": "./node_modules/prettier",
   "[typescript][typescriptreact][javascript][javascriptreact]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

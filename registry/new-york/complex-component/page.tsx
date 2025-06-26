@@ -1,9 +1,12 @@
 import * as React from "react"
+
 import { PokemonCard } from "@/registry/new-york/complex-component/components/pokemon-card"
 import { getPokemonList } from "@/registry/new-york/complex-component/lib/pokemon"
 
 export default function Page() {
-  const [pokemons, setPokemons] = React.useState<{ results: { name: string }[] } | null>(null)
+  const [pokemons, setPokemons] = React.useState<{
+    results: { name: string }[]
+  } | null>(null)
 
   React.useEffect(() => {
     async function fetchPokemon() {

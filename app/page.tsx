@@ -1,9 +1,10 @@
 import * as React from "react"
-import { RegistryCommand } from "@/components/registry-command"
-import { ComponentDisplay } from "./examples/component-display"
-import { TextCopyExample } from "./examples/text-copy-example"
-import { HtmlCopyExample } from "./examples/html-copy-example"
+
 import { AdvancedCopyExample } from "./examples/advanced-copy-example"
+import { ComponentDisplay } from "./examples/component-display"
+import { HtmlCopyExample } from "./examples/html-copy-example"
+import { TextCopyExample } from "./examples/text-copy-example"
+import { RegistryCommand } from "@/components/registry-command"
 
 // This page displays items from the custom registry.
 // You are free to implement this with your own design as needed.
@@ -35,17 +36,20 @@ function CopyButtonExample() {
         <AdvancedCopyExample />
       </ComponentDisplay>
     </div>
-  );
+  )
 }
 
 export default function Home() {
   return (
     <div className="max-w-3xl mx-auto flex flex-col min-h-svh px-4 py-8 gap-8">
       <header className="flex flex-col gap-1 space-y-6 mb-6">
-        <h1 className="text-3xl font-bold tracking-tight">CopyButton Component Showcase</h1>
+        <h1 className="text-3xl font-bold tracking-tight">
+          CopyButton Component Showcase
+        </h1>
         <p className="text-muted-foreground">
-          A powerful copy button component that can copy text, HTML, or content from DOM elements. 
-          This component supports both plain text and rich HTML content copying to the clipboard.
+          A powerful copy button component that can copy text, HTML, or content
+          from DOM elements. This component supports both plain text and rich
+          HTML content copying to the clipboard.
         </p>
         <RegistryCommand registryId="copy-button" />
       </header>
