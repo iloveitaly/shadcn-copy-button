@@ -1,0 +1,8 @@
+{
+  // if your project isn't in root
+  "prettier.prettierPath": "./node_modules/prettier",
+  "[typescript][typescriptreact][javascript][javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  }
+}

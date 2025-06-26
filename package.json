@@ -14,6 +14,7 @@
     "dev": "vite",
     "build": "vite build",
     "start": "vite preview",
+    "format": "prettier --write .",
     "lint": "eslint .",
     "registry:build": "shadcn registry:build",
     "upgrade:shadcn": "npx --yes shadcn@canary add --all --overwrite --yes",
@@ -39,12 +40,31 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "postcss": "^8",
+    "prettier": "^3.6.1",
+    "prettier-plugin-tailwindcss": "^0.6.13",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+  },
+  "prettier": {
+    "semi": false,
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "importOrderGroupNamespaceSpecifiers": true,
+    "importOrder": [
+      "^[:alpha].*$",
+      "^@remix(.*)$",
+      "^(@mantine|@emotion|@nivo)(.*)$",
+      "^~/",
+      "./"
+    ],
+    "plugins": [
+      "@trivago/prettier-plugin-sort-imports"
+    ]
   }
 }
