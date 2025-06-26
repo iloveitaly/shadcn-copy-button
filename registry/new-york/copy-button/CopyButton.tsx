@@ -1,6 +1,7 @@
 /**
  * A customizable copy button component that can copy text, HTML, or content from a referenced element to the clipboard.
- * Supports both plain text and rich HTML content copying with automatic markdown conversion.
+ * Supports both plain text and rich HTML content copying with automatic markdown conversion. This enables a user to copy
+ * HTML content and paste into a HTML-aware editor or a plain text editor (as markdown).
  *
  * @see https://github.com/shadcn-ui/ui/discussions/4052
  */
@@ -14,7 +15,7 @@ import { invariant } from "@epic-web/invariant"
 
 interface CopyButtonProps extends React.ComponentProps<typeof Button> {
   /**
-   * Plain text content to copy to clipboard. Takes precedence over HTML content if both are provided.
+   * Plain text content to copy to clipboard. Takes precedence over auto-generated plain-text version if HTML is provided.
    */
   text?: string
 
