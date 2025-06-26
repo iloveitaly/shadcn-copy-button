@@ -6,7 +6,7 @@ import react from "@vitejs/plugin-react"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/shadcn-registry-template-github-pages/",
+  base: process.env.VITE_GITHUB_PAGES_URL,
   plugins: [react()],
   resolve: {
     alias: {
