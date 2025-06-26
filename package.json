@@ -1,14 +1,21 @@
 {
-  "name": "registry-template",
+  "name": "shadcn-copy-button",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "A template for creating a registry of shadcn component registries, without next, and hosting them on GitHub Pages.",
-  "homepage": "https://iloveitaly.github.io/shadcn-registry-template-github-pages",
+  "description": "A customizable ShadCN/UI copy button component that supports copying text, HTML, and content from referenced elements to the clipboard with automatic markdown conversion.",
+  "homepage": "https://iloveitaly.github.io/shadcn-copy-button",
   "keywords": [
     "shadcn",
     "shadcn-ui",
-    "shadcn-registry"
+    "shadcn-registry",
+    "copy-button",
+    "clipboard",
+    "react",
+    "typescript",
+    "html-copy",
+    "markdown-conversion",
+    "ui-component"
   ],
   "scripts": {
     "dev": "vite",

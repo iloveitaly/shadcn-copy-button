@@ -1,5 +1,5 @@
-# TITLE_OF_COMPONENT
+# ShadCN Copy Button Component
 
-Short 1-3 sentences description of the component.
+A customizable ShadCN/UI copy button component that can copy text, HTML, or content from a referenced element to the clipboard. Supports both plain text and rich HTML content copying with automatic markdown conversion, enabling users to copy HTML content and paste into HTML-aware editors or plain text editors (as markdown).
 
-Link to GitHub Pages URL for the component. Use `gh repo view` to generate the correct link and display the bare URL.
+https://iloveitaly.github.io/shadcn-copy-button

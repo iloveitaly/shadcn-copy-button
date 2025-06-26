@@ -7,7 +7,7 @@
       "name": "copy-button",
       "type": "registry:component",
       "title": "Copy Button",
-      "description": "A simple button to copy the text contained within a element to the clipboard.",
+      "description": "A customizable ShadCN/UI copy button component that can copy text, HTML, or content from a referenced element to the clipboard. Supports both plain text and rich HTML content copying with automatic markdown conversion.",
       "dependencies": ["@epic-web/invariant", "turndown", "lucide-react"],
       "registryDependencies": ["button"],
       "files": [
