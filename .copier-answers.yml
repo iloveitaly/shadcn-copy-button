@@ -1,11 +1,2 @@
 # this exact file name is required in this exact location if updates are to work
-{
-  "_commit": "3e99599",
-  "_src_path": "https://github.com/iloveitaly/shadcn-registry-template-github-pages",
-  "project_name": "shadcn-copy-button",
-  "full_name": "Michael Bianco",
-  "email": "mike@mikebian.co",
-  "github_username": "iloveitaly",
-  "github_url": "https://github.com/iloveitaly/shadcn-copy-button",
-  "github_pages_url": "https://iloveitaly.github.io/shadcn-copy-button",
-}
+{"_commit": "3562aae", "_src_path": "https://github.com/iloveitaly/shadcn-registry-template-github-pages", "project_name": "shadcn-copy-button", "github_username": "iloveitaly", "github_url": "https://github.com/iloveitaly/shadcn-copy-button", "github_pages_url": "https://iloveitaly.github.io/shadcn-copy-button"}

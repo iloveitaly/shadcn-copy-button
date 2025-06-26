@@ -8,4 +8,5 @@ uv tool run --with jinja2_shell_extension \
   --exclude pnpm-lock.yaml \
   --exclude registry \
   --exclude app/examples \
-  --exclude app/page.tsx
+  --exclude app/page.tsx \
+  --exclude index.html
