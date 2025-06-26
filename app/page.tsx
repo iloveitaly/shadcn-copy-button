@@ -1,5 +1,3 @@
-import * as React from "react"
-
 import { AdvancedCopyExample } from "./examples/advanced-copy-example"
 import { ComponentDisplay } from "./examples/component-display"
 import { HtmlCopyExample } from "./examples/html-copy-example"

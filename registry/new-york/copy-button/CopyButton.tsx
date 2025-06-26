@@ -52,7 +52,7 @@ export function CopyButton({
       let textContent = text
 
       if (!textContent && htmlContent) {
-        var turndownService = new TurndownService()
+        const turndownService = new TurndownService()
         textContent = turndownService.turndown(htmlContent)
       }
 
