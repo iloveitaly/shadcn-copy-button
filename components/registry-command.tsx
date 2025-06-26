@@ -15,7 +15,8 @@ interface RegistryCommandProps {
 }
 
 export function RegistryCommand({ registryId }: RegistryCommandProps) {
-  const command = `pnpx shadcn add https://iloveitaly.github.io/shadcn-registry-template-github-pages/r/${registryId}.json`
+  const repoUrl = import.meta.env.VITE_GITHUB_REPO_URL
+  const command = `pnpx shadcn add ${repoUrl}/r/${registryId}.json`
 
   const [copied, setCopied] = React.useState(false)
   const [tooltipOpen, setTooltipOpen] = React.useState(false)
