@@ -15,7 +15,7 @@ interface RegistryCommandProps {
 }
 
 export function RegistryCommand({ registryId }: RegistryCommandProps) {
-  const repoUrl = import.meta.env.VITE_GITHUB_REPO_URL
+  const repoUrl = import.meta.env.VITE_GITHUB_PAGES_URL
   const command = `pnpx shadcn add ${repoUrl}/r/${registryId}.json`
 
   const [copied, setCopied] = React.useState(false)
