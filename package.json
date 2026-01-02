@@ -9,10 +9,9 @@
     "shadcn",
     "shadcn-ui",
     "shadcn-registry",
+    "auto-release",
     "copy-button",
     "clipboard",
-    "react",
-    "typescript",
     "html-copy",
     "markdown-conversion",
     "ui-component"
